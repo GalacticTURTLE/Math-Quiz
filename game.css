@@ -1,0 +1,47 @@
+body
+{
+	background: magenta;
+	text-align:center;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgb(204, 138, 138);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: rgb(106, 228, 207);
+border-radius: 10px;
+border-top: 10px solid #288a0f;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+
+  #gametext{
+	  color:rgb(128, 0, 90);
+  }
